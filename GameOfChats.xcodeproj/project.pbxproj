@@ -10,8 +10,15 @@
 		93B7465BDB0266AC5E092F08 /* Pods_GameOfChats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721FBBCEC63050FD38568734 /* Pods_GameOfChats.framework */; };
 		E119CC0021B7066200BC79AD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CBFF21B7066200BC79AD /* LoginViewController.swift */; };
 		E119CC0221B72B9500BC79AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E119CC0121B72B9500BC79AD /* GoogleService-Info.plist */; };
+		E119CC0521B8052700BC79AD /* LoginRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CC0421B8052700BC79AD /* LoginRegisterView.swift */; };
+		E119CC0821B80B3C00BC79AD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CC0721B80B3C00BC79AD /* UIColorExtension.swift */; };
+		E119CC0B21B832A600BC79AD /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CC0A21B832A600BC79AD /* UserController.swift */; };
+		E119CC0D21B83AB300BC79AD /* NewMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CC0C21B83AB300BC79AD /* NewMessageTableViewController.swift */; };
+		E119CC1021B8423B00BC79AD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CC0F21B8423B00BC79AD /* User.swift */; };
+		E119CC1221B8489E00BC79AD /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CC1121B8489E00BC79AD /* UserTableViewCell.swift */; };
+		E119CC1421B9C35800BC79AD /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119CC1321B9C35800BC79AD /* UIImageViewExtension.swift */; };
 		E1E46FE321B70116007776D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E46FE221B70116007776D6 /* AppDelegate.swift */; };
-		E1E46FE521B70116007776D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E46FE421B70116007776D6 /* ViewController.swift */; };
+		E1E46FE521B70116007776D6 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E46FE421B70116007776D6 /* MessagesController.swift */; };
 		E1E46FE821B70116007776D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E46FE621B70116007776D6 /* Main.storyboard */; };
 		E1E46FEA21B7013F007776D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E46FE921B7013F007776D6 /* Assets.xcassets */; };
 		E1E46FED21B7013F007776D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E46FEB21B7013F007776D6 /* LaunchScreen.storyboard */; };
@@ -22,9 +29,16 @@
 		72E06C41C8F5D67A2C76A7AC /* Pods-GameOfChats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameOfChats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameOfChats/Pods-GameOfChats.debug.xcconfig"; sourceTree = "<group>"; };
 		E119CBFF21B7066200BC79AD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E119CC0121B72B9500BC79AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E119CC0421B8052700BC79AD /* LoginRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterView.swift; sourceTree = "<group>"; };
+		E119CC0721B80B3C00BC79AD /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E119CC0A21B832A600BC79AD /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		E119CC0C21B83AB300BC79AD /* NewMessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageTableViewController.swift; sourceTree = "<group>"; };
+		E119CC0F21B8423B00BC79AD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E119CC1121B8489E00BC79AD /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		E119CC1321B9C35800BC79AD /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		E1E46FDF21B70116007776D6 /* GameOfChats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfChats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E46FE221B70116007776D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1E46FE421B70116007776D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1E46FE421B70116007776D6 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		E1E46FE721B70116007776D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1E46FE921B7013F007776D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1E46FEC21B7013F007776D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,13 +75,48 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E119CBFE21B7060300BC79AD /* Controller */ = {
+		E119CBFE21B7060300BC79AD /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				E119CBFF21B7066200BC79AD /* LoginViewController.swift */,
-				E1E46FE421B70116007776D6 /* ViewController.swift */,
+				E1E46FE421B70116007776D6 /* MessagesController.swift */,
+				E119CC0C21B83AB300BC79AD /* NewMessageTableViewController.swift */,
 			);
-			path = Controller;
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E119CC0321B802C000BC79AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E119CC0421B8052700BC79AD /* LoginRegisterView.swift */,
+				E119CC1121B8489E00BC79AD /* UserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E119CC0621B80B1D00BC79AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E119CC0721B80B3C00BC79AD /* UIColorExtension.swift */,
+				E119CC1321B9C35800BC79AD /* UIImageViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E119CC0921B82EE100BC79AD /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E119CC0A21B832A600BC79AD /* UserController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		E119CC0E21B8421D00BC79AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E119CC0F21B8423B00BC79AD /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E1E46FD621B70116007776D6 = {
@@ -92,7 +141,11 @@
 		E1E46FE121B70116007776D6 /* GameOfChats */ = {
 			isa = PBXGroup;
 			children = (
-				E119CBFE21B7060300BC79AD /* Controller */,
+				E119CC0E21B8421D00BC79AD /* Model */,
+				E119CC0921B82EE100BC79AD /* Model Controllers */,
+				E119CC0621B80B1D00BC79AD /* Extensions */,
+				E119CC0321B802C000BC79AD /* Views */,
+				E119CBFE21B7060300BC79AD /* View Controllers */,
 				E1E46FE221B70116007776D6 /* AppDelegate.swift */,
 				E1E46FE621B70116007776D6 /* Main.storyboard */,
 				E1E46FE921B7013F007776D6 /* Assets.xcassets */,
@@ -230,9 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E119CC1421B9C35800BC79AD /* UIImageViewExtension.swift in Sources */,
+				E119CC0B21B832A600BC79AD /* UserController.swift in Sources */,
+				E119CC0D21B83AB300BC79AD /* NewMessageTableViewController.swift in Sources */,
 				E119CC0021B7066200BC79AD /* LoginViewController.swift in Sources */,
-				E1E46FE521B70116007776D6 /* ViewController.swift in Sources */,
+				E1E46FE521B70116007776D6 /* MessagesController.swift in Sources */,
+				E119CC1021B8423B00BC79AD /* User.swift in Sources */,
+				E119CC0821B80B3C00BC79AD /* UIColorExtension.swift in Sources */,
+				E119CC1221B8489E00BC79AD /* UserTableViewCell.swift in Sources */,
 				E1E46FE321B70116007776D6 /* AppDelegate.swift in Sources */,
+				E119CC0521B8052700BC79AD /* LoginRegisterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
